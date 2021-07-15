@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1024px" viewBox="0 0 1440 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <radialGradient cx="50%" cy="21.2076052%" fx="50%" fy="21.2076052%" r="100%" gradientTransform="translate(0.500000,0.212076),scale(0.652943,1.000000),rotate(90.000000),translate(-0.500000,-0.212076)" id="radialGradient-1">
+            <stop stop-color="#BD92DE" offset="0%"></stop>
+            <stop stop-color="#6500CC" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="21.2076052%" fx="50%" fy="21.2076052%" r="100%" gradientTransform="translate(0.500000,0.212076),scale(0.652943,1.000000),rotate(90.000000),translate(-0.500000,-0.212076)" id="radialGradient-2">
+            <stop stop-color="#BD92DE" stop-opacity="0.513166521" offset="0%"></stop>
+            <stop stop-color="#6500CC" stop-opacity="0.758495411" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="21.2076052%" fx="50%" fy="21.2076052%" r="100%" gradientTransform="translate(0.500000,0.212076),scale(0.699417,1.000000),rotate(90.000000),translate(-0.500000,-0.212076)" id="radialGradient-3">
+            <stop stop-color="#BD92DE" stop-opacity="0.454682037" offset="0%"></stop>
+            <stop stop-color="#6500CC" stop-opacity="0.0981206294" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="" id="Path-2" stroke="#979797"></path>
+        <path d="M-2.07762696e-11,646.135362 C160.393626,500.849544 352.941623,512.860753 577.643992,682.168988 C727.785595,820.684147 861.832715,895.358253 979.785352,906.191308 C1061.27843,913.675829 1344.71354,771.301713 1110.00571,790.386193 C742.29109,820.285673 818.04572,416.828195 1182.48457,567.289868 C1582.14435,732.292802 1679.58815,746.196179 1474.81598,609 L1440,-202.985825 L-2.06767936e-11,-202.985825 C-160.393626,508.380784 -160.393626,791.421179 -2.07762696e-11,646.135362 Z" id="Path-4" stroke="url(#radialGradient-2)" stroke-width="36" fill="url(#radialGradient-1)"></path>
+        <path d="M-414.70478,384.121187 C-254.311154,238.835369 -6.8792228,258.758332 327.591014,443.890075 C401.668586,487.566547 480.831772,554.3289 565.080571,644.177133 C610.034947,692.119315 483.684463,458.559988 430.573634,298.941299 C421.783544,272.523663 373.377897,48.7274949 621.626787,165.202567 C882.42259,287.564484 1028.53287,229.108872 1059.95763,-10.164269 L1025.29522,-465 L-414.70478,-465 C-575.098407,246.366609 -575.098407,529.407004 -414.70478,384.121187 Z" id="Path-4" fill="url(#radialGradient-3)" transform="translate(262.478817, 92.770111) rotate(-12.000000) translate(-262.478817, -92.770111) "></path>
+    </g>
+</svg>

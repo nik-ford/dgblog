@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="481px" viewBox="0 0 1440 481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <defs>
+        <radialGradient cx="25.8852103%" cy="-0.253017955%" fx="25.8852103%" fy="-0.253017955%" r="100.553848%" gradientTransform="translate(0.258852,-0.002530),scale(0.372055,1.000000),rotate(7.978601),translate(-0.258852,0.002530)" id="radialGradient-1">
+            <stop stop-color="#4A0966" offset="0%"></stop>
+            <stop stop-color="#4A0966" offset="0%"></stop>
+            <stop stop-color="#C292FF" offset="100%"></stop>
+        </radialGradient>
+        <path d="M116.963891,-495.383741 C284.89596,-462.741053 419.983822,-367.790969 487.232259,-250.415287 C588.803331,-303.438362 720.372554,-323.082277 856.623373,-296.5978 C944.64989,-279.487179 1023.652,-245.256731 1088.5895,-199.650455 L1088.57667,-199.656952 C1194.50212,-290.853896 1361.80484,-332.953223 1536.83315,-298.931165 C1704.76522,-266.288478 1839.85308,-171.338393 1907.10152,-53.9627113 C2008.67259,-106.985787 2140.24181,-126.629701 2276.49263,-100.145225 C2543.76653,-48.1924421 2727.84402,161.588839 2687.6412,368.41438 C2647.43839,575.239922 2398.17927,700.789099 2130.90537,648.836316 C1962.9733,616.193629 1827.88544,521.243544 1760.637,403.867862 C1659.06593,456.890938 1527.49671,476.534852 1391.24589,450.050376 C1303.2194,432.93976 1224.21731,398.709329 1159.27982,353.103076 L1159.29359,353.108666 C1053.36819,444.306207 886.064975,486.405906 711.036109,452.383741 C543.10404,419.741053 408.016178,324.790969 340.767741,207.415287 C239.196669,260.438362 107.627446,280.082277 -28.6233729,253.5978 C-295.897271,201.645017 -479.974755,-8.13626343 -439.771943,-214.961805 C-399.56913,-421.787346 -150.310007,-547.336524 116.963891,-495.383741 Z" id="path-2"></path>
+        <filter x="-0.7%" y="-1.3%" width="101.3%" height="103.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.601760643   0 0 0 0 0.59897429   0 0 0 0 0.59897429  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>
