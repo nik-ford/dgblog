@@ -37,16 +37,16 @@ font-size: 20px;
 z-index: 99;
 `;
 export const Headbg = styled.div`
-width: 100vw;
-height: 100vh;
-background-image: url(${bgimage});
-background-color: transparent;
 display: flex;
 flex-direction: row;
+width: 100%;
+height: auto;
+background-image: url(${bgimage});
+background-color: transparent;
 justify-content: space-around;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100% auto;
 `;
 export const Suit1 = styled.div`
 width: 300px;
@@ -71,12 +71,12 @@ background-repeat: no-repeat;
 background-size: cover;
 `;
 const Container = styled.div`
-width: 100vw;
-height: 100vh;
+width: 100%;
+height: 100%;
 display: grid; 
   grid-auto-columns: 1fr; 
   grid-template-columns: 1fr; 
-  grid-template-rows: 70px 300px 1fr; 
+  grid-template-rows: 70px 300px 400px; 
   gap: 0px 0px; 
   grid-template-areas: 
     "navbar"
@@ -92,13 +92,19 @@ background-size: cover;
 
 `;
 const Navbars = styled.div`
+display: flex;
 grid-area: navbar;
 `;
 const Images = styled.div`
 grid-area: images;
+display: flex;
 `;
 const Contento = styled.div`
+margin-top: 370px;
 grid-area: contento;
+display: flex;
+justify-content: center;
+align-items: center;
 `;
 
 
@@ -111,7 +117,7 @@ const Home = () => {
     <Container>
         <Navbars><Navbar /></Navbars>
         <Images><Hero /></Images>
-        <Contento>c</Contento>
+        <Contento>PROVA SOTTO TESTO</Contento>
     </Container>
     </>
     

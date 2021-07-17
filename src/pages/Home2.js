@@ -35,16 +35,12 @@ font-size: 20px;
 z-index: 99;
 `;
 export const Headbg = styled.div`
-width: 100vw;
-height: 100vh;
-background-image: url(${bgimage});
-background-color: transparent;
-display: flex;
-flexDirection: row;
-justify-content: space-around;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+width: 500px;
+height: 500px;
+background-color: #5f2c82;  /* fallback for old browsers */
+background-color: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background-color: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 `;
 export const Suit1 = styled.div`
 width: 300px;

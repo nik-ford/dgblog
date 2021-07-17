@@ -8,6 +8,7 @@ import suit2 from '../assets//images/man.svg'
 export const Suit1 = styled.img`
 max-width: 700px;
 max-height: 700px;
+margin-right: 250px;
 `;
 export const Card = styled.h1`
 margin: 50px 0px 0px 240px;
@@ -17,6 +18,7 @@ height: 500px;
 color: white;
 background-color: transparent;
 text-align: end;
+text-shadow:2px 2px 10px violet;
 
 `;
 
@@ -26,20 +28,19 @@ const Hero = () => {
     const { width, height, size } = useDimensions()
     return (
         <Row
-        width="100vw"
+        display= "flex"
+        width="100%"
         marginTop="150px"
         height="400px"
         display= "flex"
         alignItems="center">
             <Col
-            size={1}
-
+            size={2}
             display="flex"
             justifyContent="center"
             alignItems="center"><Card>We are developers<br></br> students, and<br></br>  also teachers</Card></Col>
             <Col
             size={1}
-
             display="flex"
             justifyContent="center"><Suit1 src={suit1} /></Col>
         </Row>
