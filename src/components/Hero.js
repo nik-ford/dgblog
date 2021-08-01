@@ -11,7 +11,7 @@ max-height: 700px;
 margin-right: 250px;
 `;
 export const Card = styled.h1`
-margin: 50px 0px 0px 240px;
+margin: -50px 0px 0px 240px;
 font-size: 70px;
 width: 700px;
 height: 500px;
@@ -38,12 +38,13 @@ const Hero = () => {
             size={2}
             display="flex"
             justifyContent="center"
-            alignItems="center"><Card>We are developers<br></br> students, and<br></br>  also teachers</Card></Col>
+            alignItems="center"><Card>We are developers,<br></br> students,<br></br>  teachers</Card></Col>
             <Col
             size={1}
             display="flex"
-            justifyContent="center"><Suit1 src={suit1} /></Col>
+            justifyContent="center"><Suit1 src={suit1} />Foto di <a href="https://pixabay.com/it/users/graphicmama-team-2641041/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1598129">GraphicMama-team</a> da <a href="https://pixabay.com/it/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1598129">Pixabay</a></Col>
         </Row>
+        
     )
 }
 

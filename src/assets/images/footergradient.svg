@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3164px" height="1193px" viewBox="0 0 3164 1193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape 2</title>
+    <defs>
+        <radialGradient cx="25.8852103%" cy="-0.253017955%" fx="25.8852103%" fy="-0.253017955%" r="100.553848%" gradientTransform="translate(0.258852,-0.002530),scale(0.372055,1.000000),rotate(7.978601),translate(-0.258852,0.002530)" id="radialGradient-1">
+            <stop stop-color="#4A0966" offset="0%"></stop>
+            <stop stop-color="#4A0966" offset="0%"></stop>
+            <stop stop-color="#C292FF" offset="100%"></stop>
+        </radialGradient>
+        <path d="M562.246804,11.7255926 C730.178873,44.3682801 865.266735,139.318365 932.515173,256.694047 C1034.08624,203.670971 1165.65547,184.027057 1301.90629,210.511533 C1389.9328,227.622154 1468.93492,261.852603 1533.87242,307.458878 L1533.85958,307.452381 C1639.78504,216.255437 1807.08775,174.15611 1982.11606,208.178168 C2150.04813,240.820856 2285.136,335.77094 2352.38443,453.146622 C2453.9555,400.123546 2585.52473,380.479632 2721.77555,406.964108 C2989.04944,458.916891 3173.12693,668.698172 3132.92412,875.523714 C3092.7213,1082.34926 2843.46218,1207.89843 2576.18828,1155.94565 C2408.25621,1123.30296 2273.16835,1028.35288 2205.91991,910.977195 C2104.34884,964.000271 1972.77962,983.644185 1836.5288,957.159709 C1748.50231,940.049093 1669.50022,905.818662 1604.56273,860.212409 L1604.57651,860.218 C1498.6511,951.41554 1331.34789,993.515239 1156.31902,959.493074 C988.386954,926.850386 853.299092,831.900302 786.050654,714.52462 C684.479582,767.547696 552.91036,787.19161 416.65954,760.707134 C149.385643,708.754351 -34.691842,498.97307 5.51097073,292.147528 C45.7137834,85.3219869 294.972906,-40.2271903 562.246804,11.7255926 Z" id="path-2"></path>
+        <filter x="-0.7%" y="-1.3%" width="101.3%" height="103.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.601760643   0 0 0 0 0.59897429   0 0 0 0 0.59897429  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(537.000000, -344.000000)">
+            <g id="Combined-Shape" transform="translate(-524.282913, 351.890667)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

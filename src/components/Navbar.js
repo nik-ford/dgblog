@@ -68,9 +68,9 @@ const Navbar = () => {
           alignItems="center"
           collapse="xs"
           >
-              <StyledLink>Our story</StyledLink>
-              <StyledLink>Join us</StyledLink>
-              <StyledLink>Contact us</StyledLink>
+              <StyledLink>HOME</StyledLink>
+              <StyledLink>BLOG</StyledLink>
+              <StyledLink>CONTACT</StyledLink>
           </Col>
           <Col size={1}
           marginRight="35px"

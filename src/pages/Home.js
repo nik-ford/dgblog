@@ -8,9 +8,14 @@ import suit2 from '../assets//images/man.svg'
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
+import Section from '../components/Section'
 
-export const Title = styled.h1`
-text-align: center;
+export const Background = styled.img`
+background-image: url(${bgimage});
+background-color: transparent;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 `;
 
 const StyledLink = styled(Link)`
@@ -76,19 +81,20 @@ height: 100%;
 display: grid; 
   grid-auto-columns: 1fr; 
   grid-template-columns: 1fr; 
-  grid-template-rows: 70px 300px 400px; 
+  grid-template-rows: 70px 300px 400px 400px; 
   gap: 0px 0px; 
   grid-template-areas: 
     "navbar"
     "images"
-    "contento"; 
+    "contento"
+    "contento2"; 
   justify-items: stretch; 
   align-items: stretch; 
 background-image: url(${bgimage});
 background-color: transparent;
-background-position: center;
+background-position: start;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100vw;
 
 `;
 const Navbars = styled.div`
@@ -100,8 +106,15 @@ grid-area: images;
 display: flex;
 `;
 const Contento = styled.div`
-margin-top: 370px;
+margin-top: 500px;
 grid-area: contento;
+display: flex;
+justify-content: center;
+align-items: center;
+`;
+const Contento2 = styled.div`
+margin-top: 500px;
+grid-area: contento2;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -117,7 +130,8 @@ const Home = () => {
     <Container>
         <Navbars><Navbar /></Navbars>
         <Images><Hero /></Images>
-        <Contento>PROVA SOTTO TESTO</Contento>
+        <Contento><Section /></Contento>
+        <Contento2><Section /></Contento2>
     </Container>
     </>
     
